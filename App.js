@@ -11,6 +11,7 @@ const AppButton = ({ onPress, title, buttonStyle, textStyle }) => (
 function App() {
   return (
     <View style={styles.container}>
+      
       <Image source={require('./assets/dp.jpg')} style={styles.image} />
 
       <View style={styles.school}>
@@ -54,6 +55,12 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 30,
   }, 
+ 
+  navbar:{
+    justifyContent:"center",
+ alignItems:"center",
+ height:30
+  },
 
   image: {
     marginTop: 80,
